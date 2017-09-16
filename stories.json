@@ -1,0 +1,35 @@
+
+[
+    {
+        "title":"best story",
+        "date":"5th January 2016",
+        "content":"dsdjsifhnijdfis fdjdughfjg fubhgfg fhbgudjfn dfhudsh fudfh d hfu hdufhudhf ud fh dhfudh fudhufh udfhudh fuhd hf d fdu hfd hfudh ufhdu fdu hufhd fhdu hf dhf d ",
+        "img":"best-story.jpg",
+        "doc":"best-story.doc",
+        "pdf":"best-story.pdf",
+        "view":"http://www.huffingtonpost.com/arna-bontemps-hemenway/the-10-best-short-stories_b_5571764.html"
+        
+    },
+    {
+        "title":"awesome story",
+        "date":"6th September 2017",
+        "content":"dsdjsifhnijdfis fdjdughfjg fubhgfg fhbgudjfn dfhudsh fudfh d hfu hdufhudhf ud fh dhfudh fudhufh udfhudh fuhd hf d fdu hfd hfudh ufhdu fdu hufhd fhdu hf dhf d dsdjsifhnijdfis fdjdughfjg fubhgfg fhbgudjfn dfhudsh fudfh d hfu hdufhudhf ud fh dhfudh fudhufh udfhudh fuhd hf d fdu hfd hfudh ufhdu fdu hufhd fhdu hf dhf d dsdjsifhnijdfis fdjdughfjg fubhgfg fhbgudjfn dfhudsh fudfh d hfu hdufhudhf ud fh dhfudh fudhufh udfhudh fuhd hf d fdu hfd hfudh ufhdu fdu hufhd fhdu hf dhf d ",
+        "img":"awesome-story.jpg",
+        "doc":"awesome-story.doc",
+        "pdf":"none",
+        "view":"none"
+        
+    },
+    {
+        "title":"fake story",
+        "date":"7th July 2015",
+        "content":"dsdjsifhnijdfis fdjdughfjg fubhgfg fhbgudjfn dfhudsh fudfh d hfu hdufhudhf ud fh dhfudh fudhufh udfhudh fuhd hf d fdu hfd hfudh ufhdu fdu hufhd fhdu hf dhf d ",
+        "img":"fake-story.jpg",
+        "doc":"none",
+        "pdf":"fake-story.pdf",
+        "view":"http://www.bbc.com/news/magazine-38005844"
+    }
+]
+
+
+
