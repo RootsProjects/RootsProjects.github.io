@@ -9,6 +9,89 @@ body {
   background: #ddd;
   height: auto; }
 
+.about-me {
+  height: auto;
+  background: grey;
+  width: 100%; }
+  .about-me .about-name {
+    position: relative;
+    width: 100%;
+    height: 270px;
+    background: #505050;
+    box-shadow: 0 2px 5px #111; }
+    .about-me .about-name h1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: -60px;
+      margin: auto;
+      text-align: center;
+      display: inline-block;
+      font-size: 100px;
+      color: #eee;
+      height: 120px; }
+  .about-me .about-header {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 600px;
+    background: #5f5f5f;
+    box-shadow: 0 0px 5px 1px #111; }
+    .about-me .about-header .about-picture-content {
+      position: absolute;
+      margin: auto;
+      width: 1100px;
+      height: 600px;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: inline-block; }
+      .about-me .about-header .about-picture-content .about-picture {
+        background: url("../img/about-me.jpg") center center;
+        background-repeat: no-repeat;
+        background-size: 400px;
+        box-shadow: 0px 0px 10px 1px #111;
+        height: 500px;
+        background: cover;
+        border-radius: 800px;
+        width: 400px;
+        background-color: none;
+        position: absolute;
+        margin: auto;
+        right: 50px;
+        top: 0;
+        bottom: 0;
+        float: right;
+        display: inline-block; }
+      .about-me .about-header .about-picture-content .about-content {
+        position: absolute;
+        margin: auto;
+        left: 50px;
+        top: 175px;
+        bottom: 175px;
+        float: left;
+        width: 500px;
+        display: inline-block; }
+        .about-me .about-header .about-picture-content .about-content p {
+          margin: 0;
+          padding: 2px;
+          font-size: 35px;
+          text-align: center;
+          color: #eee; }
+  .about-me .about-test {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 800px;
+    background: #505050;
+    box-shadow: 0 0px 8px 4px #111;
+    color: #eee;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px; }
+
 .contact {
   position: fixed;
   bottom: -350px;
@@ -18,34 +101,37 @@ body {
     width: 100%;
     padding: 5px;
     bottom: 200px;
-    background: #454545;
+    background: rgba(64, 64, 64, 0.65);
     cursor: default;
     text-align: center;
     color: #eee;
-    font-size: 50px;
-    box-shadow: 0 2px 5px black; }
+    font-size: 50px; }
+    .contact h2:hover {
+      background: rgba(48, 48, 48, 0.95); }
   .contact .contact-body {
     position: absolute;
     width: 100%;
     height: 165px;
     bottom: 50px;
-    background: #454545;
+    background: rgba(64, 64, 64, 0.65);
     text-align: center;
     color: #eee;
-    box-shadow: 0 2px 5px black;
     font-size: 30px; }
+    .contact .contact-body:hover {
+      background: rgba(48, 48, 48, 0.95); }
     .contact .contact-body p span {
       cursor: pointer; }
       .contact .contact-body p span:hover > span {
         text-decoration: underline; }
 
 .menu {
+  z-index: 10;
   position: fixed;
   background: #454545;
   width: 100%;
   height: 60px;
   top: -70px;
-  box-shadow: 0px 2px 5px black; }
+  box-shadow: 0px -1px 10px 5px #111; }
   .menu .menu-title {
     position: absolute;
     top: -32px;
@@ -53,6 +139,8 @@ body {
     color: #eee;
     font-size: 50px;
     cursor: pointer; }
+    .menu .menu-title:hover > .guiness-text {
+      color: #aaa; }
   .menu .about-menu {
     position: absolute;
     top: 15px;
@@ -108,7 +196,7 @@ body {
       background-color: #f68623; }
 
 .menu-button {
-  z-index: 1;
+  z-index: 3;
   position: fixed;
   top: 0px;
   right: -50px;
@@ -118,11 +206,15 @@ body {
     top: 5px; }
 
 header {
+  position: relative;
   width: 100%;
   height: 800px;
   background: url("../img/background-header.jpg") bottom center;
-  background-size: cover; }
+  z-index: 2;
+  background-size: cover;
+  box-shadow: 0 2px 5px #111; }
   header h1 {
+    z-index: 0;
     position: absolute;
     margin: auto;
     top: 350px;
@@ -156,6 +248,7 @@ footer {
       text-decoration: underline; }
 
 .copyright {
+  cursor: default;
   margin: 0; }
   .copyright h4 {
     margin: 0;
@@ -164,5 +257,9 @@ footer {
     background: #202020;
     color: #a0a0a0; }
 
-.body {
-  height: 1000px; }
+.home-body {
+  z-index: 0;
+  position: relative;
+  height: 1000px;
+  background: #606060;
+  box-shadow: 0 0 5px 3px #111; }
