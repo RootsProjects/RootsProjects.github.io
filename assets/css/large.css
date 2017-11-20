@@ -93,6 +93,7 @@ body {
     padding-top: 150px; }
 
 .contact {
+  z-index: 10;
   position: fixed;
   bottom: -350px;
   width: 100%; }
