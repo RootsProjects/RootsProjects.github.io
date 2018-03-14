@@ -8,29 +8,12 @@ body {
 body {
   overflow: hidden; }
 
-.worm {
-  transition: transform 0.5s 0s;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 25%;
-  bottom: 0;
-  width: 20%; }
-  .worm:hover {
-    transform: scale(1.1); }
-
-.disk {
-  transition: transform 0.5s 0s;
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 25%;
-  right: 0;
-  bottom: 0;
-  width: 20%; }
-  .disk:hover {
-    transform: scale(1.1); }
+div a {
+  width: auto;
+  height: auto;
+  margin: 50px; }
+  div a img {
+    width: 200px; }
 
 h1 {
   margin: auto;
